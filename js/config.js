@@ -62,16 +62,16 @@ var l_bgImagesRandom = true;
 /*(Image-background only)
 Delay between background images changes
 in milliseconds*/
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 15000;
 
 /*(Image-background only)
 Image background fade velocity
 in milliseconds*/
-var l_bgImageFadeVelocity = 2000;
+var l_bgImageFadeVelocity = 5000;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
-var l_bgDarkening = 10;
+var l_bgDarkening = 25;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
@@ -130,8 +130,8 @@ var l_messagesRandom = true;
 
 /*Delay between message changes
 in milliseconds*/
-var l_messagesDelay = 5000;
+var l_messagesDelay = 30000;
 
 /*Messages fade time
 in milliseconds*/
-var l_messagesFade = 1000;
+var l_messagesFade = 3000;
