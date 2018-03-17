@@ -84,25 +84,16 @@ var l_musicDisplay = true;
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
 	{youtube: "YXYYCFaUUHQ", name: "Noisestorm - Heist"},
-	{youtube: "YnwsMEabmSo", name: "Marshmello - Alone"},
-	{youtube: "QMokMQ8Bu7Y", name: "Pegboard Nerds & Tristam - Razor Sharp"},
-	{youtube: "YnopHCL1Jk8", name: "O-Zone - Dragostea Din Tei"},
-	{youtube: "JS7S2dVPjXU", name: "Mattafix - Big City Life"},
-	{youtube: "KlujizeNNQM", name: "Snoop Dogg - Smoke Weed Everyday"},
-	{youtube: "JU9TouRnO84", name: "Rick Ross - Hustlin'"},
-	{youtube: "WwoCsaJ5w4A", name: "DJ Striden – Level One"},
-	{youtube: "UbQgXeY_zi4", name: "Caravan Palace - Lone Digger"},
-	{youtube: "r_9Kf0D5BTs", name: "Twenty One Pilots - Heavydirtysoul"},
-	{youtube: "SNE2oCZH_4k", name: "M.O.O.N. - Hydrogen"},
-	{youtube: "AVblOqZBlJw", name: "M.O.O.N. - Crystals"},
-	{youtube: "8wXRvvGr8Ug", name: "M.O.O.N - Paris"},
-	{youtube: "IsBOC3bLbpI", name: "ЛЮБЭ - Давай за..."},
-	{youtube: "ehEJFT9Kkp0", name: "ЛЮБЭ - Комбат"},
-	{youtube: "4jhxYazSgVc", name: "Павел Пламенев - Ночь перед боем"},
-	{youtube: "8ip8OsExLJs", name: "Rizzle Kicks - Down With The Trumpets"},
-	{youtube: "pAQ6UVgGiFI", name: "FireLake - Live to Forget"},
-	{youtube: "1559w-p9fI4", name: "NRKTK - Бумбастик"},
-	{youtube: "w1aVn5tNX9Y", name: "NRKTK -  Менты веселятся"}
+	{youtube: "S1xzKtMqe_4", name: "Warriors To The End"},
+	{youtube: "DbyEN2Uvx-k", name: "Leviathan"},
+	{youtube: "V_Uq8t45cwc", name: "All Is Hell That Ends Well"},
+	{youtube: "Gm6O0Yi8v3o", name: "Over The Wall"},
+	{youtube: "OAtbxybYojw", name: "Heartstone"},
+	{youtube: "CgtmerhwbK0", name: "Supremacy"},
+	{youtube: "-Vtd2qb1NN0", name: "The Lost Continent"},
+	{youtube: "16eREt3db2E", name: "The Fire In Her Eyes"},
+	{youtube: "8D1AK1T7LzE", name: "Red Valkyrie"},
+	{youtube: "Zg8OG-ASwEo", name: "Skyfall"}
 ];
 
 /*Random music order?*/
@@ -135,3 +126,8 @@ var l_messagesDelay = 5000;
 /*Messages fade time
 in milliseconds*/
 var l_messagesFade = 1000;
+
+
+/*Some custom shit*/
+var l_music-author = "HDSounDI";
+
