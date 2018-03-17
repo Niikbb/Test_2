@@ -83,7 +83,7 @@ var l_bgImageFadeVelocity = 2000;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
-var l_bgDarkening = 25;
+var l_bgDarkening = 10;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
