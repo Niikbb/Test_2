@@ -13,7 +13,7 @@ var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Последняя Война | FA:S 2.0 | WAC | VCMod";
+var l_serverName = "Последняя Война";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -122,9 +122,12 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Удачной вам игры!",
-"Спасибо за то, что вы с нами!",
-"В данный момент грузятся аддоны, подождите..."
+"Добро пожаловать на наш сервер!" , 
+"Мы надеемся, что вам понравится наш сервер!" , 
+"Легко набрать тысячу солдат—новобранцев, но где найти хорошего генерала?" , 
+" От солдата требуется прежде всего выносливость и терпение; храбрость — дело второе" , 
+"Почти каждый генерал начинает с солдата и лишь потом берется за офицеров" , 
+"Чтобы стать хорошим солдатом, нужно отказаться от всех умных мыслей."
 ];
 
 /*Random message order?*/
