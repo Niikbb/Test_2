@@ -89,11 +89,6 @@ function setMusicName(name) {
 		$(this).fadeIn(2000);
 	});
 }
-function setAuthorName(name) {
-	$("#music-author").fadeOut(2000, function() {
-		$(this).fadeIn(2000);
-	});
-}
 
 var youtubePlayer;
 var actualMusic = -1;
