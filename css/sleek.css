@@ -93,6 +93,7 @@ video {
 #music-author {
 	position: relative;
 	font-weight: bold;
+	left: 0; bottom: 70px;
 	left: 14px;
 	margin-top: 12px;
 }
