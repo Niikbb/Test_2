@@ -87,7 +87,6 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "YXYYCFaUUHQ", name: "Noisestorm - Heist"},
 	{youtube: "S1xzKtMqe_4", name: "Warriors To The End"},
 	{youtube: "DbyEN2Uvx-k", name: "Leviathan"},
 	{youtube: "V_Uq8t45cwc", name: "All Is Hell That Ends Well"},
@@ -127,4 +126,6 @@ var l_messagesRandom = true;
 in milliseconds*/
 var l_messagesDelay = 30000;
 
+/*Messages fade time
+in milliseconds*/
 var l_messagesFade = 3000;
