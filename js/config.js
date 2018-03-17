@@ -53,19 +53,7 @@ var l_bgImages = [
 	"backgrounds/images/1.jpg",
 	"backgrounds/images/2.jpg",
 	"backgrounds/images/3.jpg",
-	"backgrounds/images/4.jpg",
-	"backgrounds/images/5.jpg",
-	"backgrounds/images/6.jpg",
-	"backgrounds/images/7.jpg",
-	"backgrounds/images/8.jpg",
-	"backgrounds/images/9.jpg",
-	"backgrounds/images/10.jpg",
-	"backgrounds/images/11.jpg",
-	"backgrounds/images/12.jpg",
-	"backgrounds/images/13.jpg",
-	"backgrounds/images/14.jpg",
-	"backgrounds/images/15.jpg",
-	"backgrounds/images/16.jpg"
+	"backgrounds/images/4.jpg"
 ];
 
 /*Random background images order?*/
@@ -107,7 +95,14 @@ var l_musicPlaylist = [
 	{youtube: "r_9Kf0D5BTs", name: "Twenty One Pilots - Heavydirtysoul"},
 	{youtube: "SNE2oCZH_4k", name: "M.O.O.N. - Hydrogen"},
 	{youtube: "AVblOqZBlJw", name: "M.O.O.N. - Crystals"},
-	{youtube: "8wXRvvGr8Ug", name: "M.O.O.N - Paris"}
+	{youtube: "8wXRvvGr8Ug", name: "M.O.O.N - Paris"},
+	{youtube: "IsBOC3bLbpI", name: "ЛЮБЭ - Давай за..."},
+	{youtube: "ehEJFT9Kkp0", name: "ЛЮБЭ - Комбат"},
+	{youtube: "4jhxYazSgVc", name: "Павел Пламенев - Ночь перед боем"},
+	{youtube: "8ip8OsExLJs", name: "Rizzle Kicks - Down With The Trumpets"},
+	{youtube: "pAQ6UVgGiFI", name: "FireLake - Live to Forget"},
+	{youtube: "1559w-p9fI4", name: "NRKTK - Бумбастик"},
+	{youtube: "w1aVn5tNX9Y", name: "NRKTK -  Менты веселятся"}
 ];
 
 /*Random music order?*/
@@ -115,16 +110,19 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 20;
+var l_musicVolume = 15;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Удачной вам игры!",
-"Спасибо за то, что вы с нами!",
-"В данный момент грузятся аддоны, подождите..."
+"Добро пожаловать на наш сервер!", 
+"Мы надеемся, что вам понравится наш сервер!", 
+"Легко набрать тысячу солдат—новобранцев, но где найти хорошего генерала?", 
+" От солдата требуется прежде всего выносливость и терпение; храбрость — дело второе", 
+"Почти каждый генерал начинает с солдата и лишь потом берется за офицеров", 
+"Чтобы стать хорошим солдатом, нужно отказаться от всех умных мыслей."
 ];
 
 /*Random message order?*/
