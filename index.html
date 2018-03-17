@@ -1,42 +1,35 @@
+<!DOCTYPE html>
 <html>
-  <body>
- <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-    <div id="player">
+<head>
+<meta charset="utf-8">
+<title>sleekLoad 2</title>
+<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/sleek.css">
+</head>
+<body>
+	<div id="player"></div>
+	<div id="overlay"></div>
+
+	<div id="title"></div>
+	<div id="subtitle">
+		Вы играете там, где вам не надо <span id="gamemode">gamemode</span>
 	</div>
-    <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
- 
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-          height: '390',
-          width: '640',
-		  playerVars: { 'autoplay': 0, 'controls': 0 }, 
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
-      function onPlayerReady(event) {
+	<div id="status-container">
+		<div id="status">Загрузка аддонов...</div>
+		<div id="loading">
+			<div id="loading-progress"></div>
+		</div>
+		<div id="messages"></div>
+	</div>
 
-      }
+	<div id="music">
+		Название музыки: <div id="music-name"></div>
+	</div>
 
-      function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING) {
-          
-        }
-      }
-	  
-	  
-	  
-    </script>
-  </body>
+	<script src="js/lib/jquery-2.1.1.min.js"></script>
+	<script src="js/lib/jquery.backstretch.min.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/sleek.js"></script>
+</body>
 </html>
