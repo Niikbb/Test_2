@@ -13,7 +13,7 @@ var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "";
+var l_serverName = "Последняя Война";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -71,7 +71,7 @@ var l_bgImageFadeVelocity = 2000;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
-var l_bgDarkening = 25;
+var l_bgDarkening = 10;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
@@ -117,11 +117,11 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Добро пожаловать на наш сервер!", 
-"Мы надеемся, что вам понравится наш сервер!", 
-"Легко набрать тысячу солдат—новобранцев, но где найти хорошего генерала?", 
-" От солдата требуется прежде всего выносливость и терпение; храбрость — дело второе", 
-"Почти каждый генерал начинает с солдата и лишь потом берется за офицеров", 
+"Добро пожаловать на наш сервер!" , 
+"Мы надеемся, что вам понравится наш сервер!" , 
+"Легко набрать тысячу солдат—новобранцев, но где найти хорошего генерала?" , 
+" От солдата требуется прежде всего выносливость и терпение; храбрость — дело второе" , 
+"Почти каждый генерал начинает с солдата и лишь потом берется за офицеров" , 
 "Чтобы стать хорошим солдатом, нужно отказаться от всех умных мыслей."
 ];
 
