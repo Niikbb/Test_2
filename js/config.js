@@ -13,7 +13,7 @@ var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Niik' Minigames [RUS]";
+var l_serverName = "";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,7 +50,22 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/1.jpg"
+	"backgrounds/images/1.jpg",
+	"backgrounds/images/2.jpg",
+	"backgrounds/images/3.jpg",
+	"backgrounds/images/4.jpg",
+	"backgrounds/images/5.jpg",
+	"backgrounds/images/6.jpg",
+	"backgrounds/images/7.jpg",
+	"backgrounds/images/8.jpg",
+	"backgrounds/images/9.jpg",
+	"backgrounds/images/10.jpg",
+	"backgrounds/images/11.jpg",
+	"backgrounds/images/12.jpg",
+	"backgrounds/images/13.jpg",
+	"backgrounds/images/14.jpg",
+	"backgrounds/images/15.jpg",
+	"backgrounds/images/16.jpg"
 ];
 
 /*Random background images order?*/
@@ -87,7 +102,12 @@ var l_musicPlaylist = [
 	{youtube: "JS7S2dVPjXU", name: "Mattafix - Big City Life"},
 	{youtube: "KlujizeNNQM", name: "Snoop Dogg - Smoke Weed Everyday"},
 	{youtube: "JU9TouRnO84", name: "Rick Ross - Hustlin'"},
-	{youtube: "WwoCsaJ5w4A", name: "DJ Striden – Level One"}
+	{youtube: "WwoCsaJ5w4A", name: "DJ Striden – Level One"},
+	{youtube: "UbQgXeY_zi4", name: "Caravan Palace - Lone Digger"},
+	{youtube: "r_9Kf0D5BTs", name: "Twenty One Pilots - Heavydirtysoul"},
+	{youtube: "SNE2oCZH_4k", name: "M.O.O.N. - Hydrogen"},
+	{youtube: "AVblOqZBlJw", name: "M.O.O.N. - Crystals"},
+	{youtube: "8wXRvvGr8Ug", name: "M.O.O.N - Paris"}
 ];
 
 /*Random music order?*/
