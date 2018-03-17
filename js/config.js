@@ -128,5 +128,3 @@ in milliseconds*/
 var l_messagesDelay = 30000;
 
 var l_messagesFade = 3000;
-
-var l_music-author = "HD Sound DI";
