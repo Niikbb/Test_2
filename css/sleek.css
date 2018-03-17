@@ -90,13 +90,6 @@ video {
 	margin-top: 6px;
 }
 
-#music-author {
-	position: relative;
-	font-weight: bold;
-	left: 14px;
-	margin-top: 20px;
-}
-
 #overlay {
 	position: fixed;
 	left: 0px; top: 0px;
