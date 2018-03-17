@@ -13,7 +13,7 @@ var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "";
+var l_serverName = "Последняя Война | FA:S 2.0 | WAC | VCMod";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
