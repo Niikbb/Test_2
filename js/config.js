@@ -13,7 +13,7 @@ var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Последняя Война";
+var l_serverName = "Niik's Sandbox";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -75,7 +75,7 @@ var l_bgImageFadeVelocity = 5000;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
-var l_bgDarkening = 25;
+var l_bgDarkening = 35;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
@@ -112,11 +112,7 @@ var l_messagesEnabled = true;
 /*Enter your custom messages below*/
 var l_messages = [
 "Добро пожаловать на наш сервер!" , 
-"Мы надеемся, что вам понравится наш сервер!" , 
-"Легко набрать тысячу солдат—новобранцев, но где найти хорошего генерала?" , 
-" От солдата требуется прежде всего выносливость и терпение; храбрость — дело второе" , 
-"Почти каждый генерал начинает с солдата и лишь потом берется за офицеров" , 
-"Чтобы стать хорошим солдатом, нужно отказаться от всех умных мыслей."
+"Мы надеемся, что вам понравится наш сервер!"
 ];
 
 /*Random message order?*/
@@ -124,8 +120,8 @@ var l_messagesRandom = true;
 
 /*Delay between message changes
 in milliseconds*/
-var l_messagesDelay = 30000;
+var l_messagesDelay = 60000;
 
 /*Messages fade time
 in milliseconds*/
-var l_messagesFade = 3000;
+var l_messagesFade = 1000;
